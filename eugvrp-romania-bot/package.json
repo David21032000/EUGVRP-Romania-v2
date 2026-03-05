@@ -1,0 +1,20 @@
+{
+  "name": "eugvrp-romania-bot",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.0",
+    "dotenv": "^17.3.1",
+    "node-fetch": "^3.3.1"
+  },
+  "railway": {
+    "env": {
+      "DISCORD_TOKEN": "",
+      "GUILD_ID": ""
+    }
+  }
+}
