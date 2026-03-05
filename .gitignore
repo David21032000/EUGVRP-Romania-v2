@@ -1,0 +1,3 @@
+.env
+# optional config local file
+config/local.json
